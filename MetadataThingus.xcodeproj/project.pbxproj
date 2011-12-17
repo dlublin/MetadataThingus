@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51FC6C06149C6982005478AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC6C05149C6982005478AD /* Cocoa.framework */; };
+		51FC6C10149C6982005478AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51FC6C0E149C6982005478AD /* InfoPlist.strings */; };
+		51FC6C12149C6982005478AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FC6C11149C6982005478AD /* main.m */; };
+		51FC6C16149C6982005478AD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51FC6C14149C6982005478AD /* Credits.rtf */; };
+		51FC6C19149C6982005478AD /* VVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FC6C18149C6982005478AD /* VVAppDelegate.m */; };
+		51FC6C1C149C6982005478AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51FC6C1A149C6982005478AD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51FC6C01149C6982005478AD /* MetadataThingus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetadataThingus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FC6C05149C6982005478AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		51FC6C08149C6982005478AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		51FC6C09149C6982005478AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		51FC6C0A149C6982005478AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51FC6C0D149C6982005478AD /* MetadataThingus-Info.plist */ = {isa = PBXFileReference; path = "MetadataThingus-Info.plist"; sourceTree = "<group>"; };
+		51FC6C0F149C6982005478AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51FC6C11149C6982005478AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51FC6C13149C6982005478AD /* MetadataThingus-Prefix.pch */ = {isa = PBXFileReference; path = "MetadataThingus-Prefix.pch"; sourceTree = "<group>"; };
+		51FC6C15149C6982005478AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		51FC6C17149C6982005478AD /* VVAppDelegate.h */ = {isa = PBXFileReference; path = VVAppDelegate.h; sourceTree = "<group>"; };
+		51FC6C18149C6982005478AD /* VVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVAppDelegate.m; sourceTree = "<group>"; };
+		51FC6C1B149C6982005478AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51FC6BFE149C6982005478AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FC6C06149C6982005478AD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51FC6BF6149C6982005478AD = {
+			isa = PBXGroup;
+			children = (
+				51FC6C0B149C6982005478AD /* MetadataThingus */,
+				51FC6C04149C6982005478AD /* Frameworks */,
+				51FC6C02149C6982005478AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51FC6C02149C6982005478AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51FC6C01149C6982005478AD /* MetadataThingus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51FC6C04149C6982005478AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51FC6C05149C6982005478AD /* Cocoa.framework */,
+				51FC6C07149C6982005478AD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51FC6C07149C6982005478AD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51FC6C08149C6982005478AD /* AppKit.framework */,
+				51FC6C09149C6982005478AD /* CoreData.framework */,
+				51FC6C0A149C6982005478AD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		51FC6C0B149C6982005478AD /* MetadataThingus */ = {
+			isa = PBXGroup;
+			children = (
+				51FC6C17149C6982005478AD /* VVAppDelegate.h */,
+				51FC6C18149C6982005478AD /* VVAppDelegate.m */,
+				51FC6C1A149C6982005478AD /* MainMenu.xib */,
+				51FC6C0C149C6982005478AD /* Supporting Files */,
+			);
+			path = MetadataThingus;
+			sourceTree = "<group>";
+		};
+		51FC6C0C149C6982005478AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51FC6C0D149C6982005478AD /* MetadataThingus-Info.plist */,
+				51FC6C0E149C6982005478AD /* InfoPlist.strings */,
+				51FC6C11149C6982005478AD /* main.m */,
+				51FC6C13149C6982005478AD /* MetadataThingus-Prefix.pch */,
+				51FC6C14149C6982005478AD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51FC6C00149C6982005478AD /* MetadataThingus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FC6C1F149C6982005478AD /* Build configuration list for PBXNativeTarget "MetadataThingus" */;
+			buildPhases = (
+				51FC6BFD149C6982005478AD /* Sources */,
+				51FC6BFE149C6982005478AD /* Frameworks */,
+				51FC6BFF149C6982005478AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetadataThingus;
+			productName = MetadataThingus;
+			productReference = 51FC6C01149C6982005478AD /* MetadataThingus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51FC6BF8149C6982005478AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Vidvox;
+			};
+			buildConfigurationList = 51FC6BFB149C6982005478AD /* Build configuration list for PBXProject "MetadataThingus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51FC6BF6149C6982005478AD;
+			productRefGroup = 51FC6C02149C6982005478AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51FC6C00149C6982005478AD /* MetadataThingus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51FC6BFF149C6982005478AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FC6C10149C6982005478AD /* InfoPlist.strings in Resources */,
+				51FC6C16149C6982005478AD /* Credits.rtf in Resources */,
+				51FC6C1C149C6982005478AD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FC6BFD149C6982005478AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FC6C12149C6982005478AD /* main.m in Sources */,
+				51FC6C19149C6982005478AD /* VVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51FC6C0E149C6982005478AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FC6C0F149C6982005478AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51FC6C14149C6982005478AD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FC6C15149C6982005478AD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		51FC6C1A149C6982005478AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FC6C1B149C6982005478AD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51FC6C1D149C6982005478AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		51FC6C1E149C6982005478AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		51FC6C20149C6982005478AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetadataThingus/MetadataThingus-Prefix.pch";
+				INFOPLIST_FILE = "MetadataThingus/MetadataThingus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51FC6C21149C6982005478AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetadataThingus/MetadataThingus-Prefix.pch";
+				INFOPLIST_FILE = "MetadataThingus/MetadataThingus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51FC6BFB149C6982005478AD /* Build configuration list for PBXProject "MetadataThingus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FC6C1D149C6982005478AD /* Debug */,
+				51FC6C1E149C6982005478AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FC6C1F149C6982005478AD /* Build configuration list for PBXNativeTarget "MetadataThingus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FC6C20149C6982005478AD /* Debug */,
+				51FC6C21149C6982005478AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51FC6BF8149C6982005478AD /* Project object */;
+}

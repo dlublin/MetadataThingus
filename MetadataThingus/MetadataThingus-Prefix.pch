@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MetadataThingus' target in the 'MetadataThingus' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
