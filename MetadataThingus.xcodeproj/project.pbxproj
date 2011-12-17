@@ -13,6 +13,7 @@
 		51FC6C16149C6982005478AD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51FC6C14149C6982005478AD /* Credits.rtf */; };
 		51FC6C19149C6982005478AD /* VVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FC6C18149C6982005478AD /* VVAppDelegate.m */; };
 		51FC6C1C149C6982005478AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51FC6C1A149C6982005478AD /* MainMenu.xib */; };
+		51FC6C24149C69AC005478AD /* VVMetadataThingus.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FC6C23149C69AC005478AD /* VVMetadataThingus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		51FC6C08149C6982005478AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		51FC6C09149C6982005478AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		51FC6C0A149C6982005478AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		51FC6C0D149C6982005478AD /* MetadataThingus-Info.plist */ = {isa = PBXFileReference; path = "MetadataThingus-Info.plist"; sourceTree = "<group>"; };
+		51FC6C0D149C6982005478AD /* MetadataThingus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetadataThingus-Info.plist"; sourceTree = "<group>"; };
 		51FC6C0F149C6982005478AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51FC6C11149C6982005478AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		51FC6C13149C6982005478AD /* MetadataThingus-Prefix.pch */ = {isa = PBXFileReference; path = "MetadataThingus-Prefix.pch"; sourceTree = "<group>"; };
+		51FC6C13149C6982005478AD /* MetadataThingus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetadataThingus-Prefix.pch"; sourceTree = "<group>"; };
 		51FC6C15149C6982005478AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		51FC6C17149C6982005478AD /* VVAppDelegate.h */ = {isa = PBXFileReference; path = VVAppDelegate.h; sourceTree = "<group>"; };
+		51FC6C17149C6982005478AD /* VVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVAppDelegate.h; sourceTree = "<group>"; };
 		51FC6C18149C6982005478AD /* VVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVAppDelegate.m; sourceTree = "<group>"; };
 		51FC6C1B149C6982005478AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		51FC6C22149C69AC005478AD /* VVMetadataThingus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVMetadataThingus.h; path = Classes/VVMetadataThingus.h; sourceTree = "<group>"; };
+		51FC6C23149C69AC005478AD /* VVMetadataThingus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVMetadataThingus.m; path = Classes/VVMetadataThingus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 			children = (
 				51FC6C17149C6982005478AD /* VVAppDelegate.h */,
 				51FC6C18149C6982005478AD /* VVAppDelegate.m */,
+				51FC6C25149C69C2005478AD /* Important Class */,
 				51FC6C1A149C6982005478AD /* MainMenu.xib */,
 				51FC6C0C149C6982005478AD /* Supporting Files */,
 			);
@@ -100,6 +104,15 @@
 				51FC6C14149C6982005478AD /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51FC6C25149C69C2005478AD /* Important Class */ = {
+			isa = PBXGroup;
+			children = (
+				51FC6C22149C69AC005478AD /* VVMetadataThingus.h */,
+				51FC6C23149C69AC005478AD /* VVMetadataThingus.m */,
+			);
+			name = "Important Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +181,7 @@
 			files = (
 				51FC6C12149C6982005478AD /* main.m in Sources */,
 				51FC6C19149C6982005478AD /* VVAppDelegate.m in Sources */,
+				51FC6C24149C69AC005478AD /* VVMetadataThingus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
